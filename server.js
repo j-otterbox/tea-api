@@ -43,3 +43,5 @@ app.get("/api/:name", (req, res) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`The server is running on port ${PORT}, better go catch it...`);
 });
+
+// this comment is to test setting up git manually
